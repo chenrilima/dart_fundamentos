@@ -11,6 +11,8 @@ void main() {
   curso = 'Novo Curso';
 
   Object anyObject = 1.5;
+  anyObject = 'Carlos';
+  anyObject = 5;
 // variáveis do tipo Object, podem ser/receber qualquer tipo de valor
 
   dynamic anyDynamic = 0.5;
