@@ -1,2 +1,2 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Estudos dos Fundamentos na linguagem Dart
+Projeto no kanban: https://github.com/chenrilima/dart_fundamentos/projects/1
