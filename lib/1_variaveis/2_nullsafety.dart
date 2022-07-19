@@ -14,5 +14,5 @@ void main() {
   name = 'Carlos Henrique';
   print(name.length);
   print(nomeCompletoOpcional.length);
-  // print(nomeSuperior.length);
+  // print(nomeSuperior.length); // vai ocorrer um erro, porque não posso promover variável global para não-nulla
 }
