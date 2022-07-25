@@ -6,7 +6,8 @@ void main() {
   var nomeCompleto = (nome ?? 'Carlos ') + sobrenome;
 
   String? nomeCompleto2;
-  print(nomeCompleto2 ?? 'Carlos Henrique');
+  print(nomeCompleto2 ??
+      'Carlos Henrique'); // se nomeCompleto2 for null, vai receber: 'Carlos Henrique'
 
   print(nomeCompleto);
 }
