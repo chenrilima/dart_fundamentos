@@ -52,4 +52,19 @@ void main() {
   for (var dado in dadosPaciente) {
     print(dado);
   }
+
+  dadosPaciente.forEach((print));
+
+  var pacientes = [
+    'Carlos Henrique|29|DevFlutter|SP',
+    'Lucas Peres|25|QA|TB',
+    'Mayara Silva|32|EDUC|SP',
+  ];
+
+  for (paciente in pacientes) {
+    var dadosPaciente = paciente.split('|');
+    var nomeCompleto = dadosPaciente[0];
+    var nomes = nomeCompleto.split(' ');
+    print(nomes.last);
+  }
 }
